@@ -1,0 +1,25 @@
+                Projeto UBICO
+
+Criação de um app onde as pessoas vão pode ser cadastrar para oferecer algum tipo de serviço seja de elétrica, eletrônica ou informática.
+
+o app vai se composto por :
+pagina login
+pagina home
+menu lateral
+pagina serviços
+ pagina de eletrica
+  sera composta por: descrição e todos os         profissionais já cadastrados.
+ pagina de eletrônica    
+   sera composta por: descrição e todos os         profissionais já cadastrados.
+ pagina de infomática   
+   sera composta por: descrição e todos os         profissionais já cadastrados.
+pagina de pesquisa
+cadastro de profissional
+cadastro de cliente
+pagina de perfil
+
+Nota1: pagina de pesquisa tera que ter a opção de geolocalização onde o cliente ia pesquisar oprofissional mais proximo
+
+Nota2: cliente podera se cadastrar clienco apenas na opção de cadastro com face ou Gmail
+
+Nota3: pensar em uma foma de clasficação.
