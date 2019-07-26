@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Serviços
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ 
+  <ion-card class="card_servicos">
+    <ion-item routerLink="/pg-eletrica" class="activated">
+      <ion-img    class="img_icons" src="./assets/img/icon_eletrica.jpg"></ion-img>
+      <ion-label>Elétrica</ion-label>        
+    </ion-item>
+
+    <ion-item routerLink="" class="activated">
+      <ion-img   class="img_icons" src="./assets/img/icon_eleronica.jpg"></ion-img>
+      <ion-label>Eletrônica</ion-label>
+    </ion-item>
+  
+    <ion-item  routerLink="pg-informatica" class="activated">
+      <ion-img class="img_icons" src="./assets/img/icon_informatica.jpg"></ion-img>
+      <ion-label>Informática</ion-label>
+    </ion-item>
+  </ion-card>
