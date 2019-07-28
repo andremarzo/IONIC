@@ -19,7 +19,10 @@ const routes: Routes = [
   { path: 'pg-eletronica', loadChildren: './pg-eletronica/pg-eletronica.module#PgEletronicaPageModule' },
   { path: 'pg-informatica', loadChildren: './pg-informatica/pg-informatica.module#PgInformaticaPageModule' },
   { path: 'pg-pesquisar', loadChildren: './pg-pesquisar/pg-pesquisar.module#PgPesquisarPageModule' },
-  { path: 'pg-login', loadChildren: './pg-login/pg-login.module#PgLoginPageModule' }
+  { path: 'pg-login', loadChildren: './pg-login/pg-login.module#PgLoginPageModule' },
+  { path: 'pg-cadastro-cliente', loadChildren: './pg-cadastro-cliente/pg-cadastro-cliente.module#PgCadastroClientePageModule' },
+  { path: 'pg-cadastro-profissional', loadChildren: './pg-cadastro-profissional/pg-cadastro-profissional.module#PgCadastroProfissionalPageModule' },
+  { path: 'cadastro-sucesso', loadChildren: './cadastro-sucesso/cadastro-sucesso.module#CadastroSucessoPageModule' }
 ];
 
 @NgModule({

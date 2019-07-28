@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cadastro Cliente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-content>
+    <div class="container">
+      <fieldset>
+        <legend>Dados do Cliente</legend>
+        <form [formGroup]="formCliente" (submit)="adcCliente()">
+          <div class="form-group">
+            <label for="idnome"></label>
+            <input formControlName="nome" class="form-control" type="text" id="idnome" placeholder="Nome">
+          </div>
+          <div class="form-group">
+            <label for="idendereco"></label>
+            <input formControlName="endereco" class="form-control" type="text" id="idendereco" placeholder="Endereço">
+          </div>
+          <div class="form-group">
+            <label for="idemail"></label>
+            <input formControlName="email" class="form-control" type="email" id="idemail" placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <label for="idsenha"></label>
+            <input formControlName="senha" class="form-control" type="password" id="idsenha" placeholder="Senha">
+          </div>
+          <div class="form-group">
+            <button [disabled]="formCliente.invalid" class="btn btn-block btn-dark btn-lg" type="submit">Enviar</button>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </ion-content>
+</ion-content>
